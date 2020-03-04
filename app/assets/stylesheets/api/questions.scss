@@ -1,0 +1,438 @@
+.single-question-container {
+  float: left;
+  padding: 10px 0 0 40px;
+  font-family: 'Roboto', sans-serif;
+  width: 500px;
+}
+
+.loading-container {
+  float: left;
+  padding: 10px 0 0 40px;
+  font-family: 'Roboto', sans-serif;
+  width: 500px;
+
+  i {
+    margin-left: 240px;
+    margin-top: 200px;
+  }
+
+  .fa-quora {
+    color: #b82b28;
+  }
+
+}
+
+.inner-nav {
+  color: #999;
+  font-size: 13px;
+
+  a:hover {
+    color: #b82b28;
+  }
+
+}
+
+.question-author-info {
+  position: relative;
+  display: inline-block;
+  width: 480px;
+  height: 52px;
+}
+
+.question-author-userpic {
+  display: block;
+  height: 40px;
+  width: 48px;
+  float: left;
+  padding: 0 5px 0 0;
+
+
+img {
+  display: block;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #f9f9f9;
+  border-radius: 50%;
+  }
+
+}
+
+
+.question-author-name {
+  float: left;
+  display: block;
+  position: absolute;
+  left: 55px;
+  width: 455px;
+}
+
+#one {
+  width: 320px;
+  float: left;
+}
+
+#two {
+  padding: 5px 0 0 20px;
+  float: right;
+}
+
+
+// follow author buttons
+
+.auth-unfollow-btn {
+  font-size: 0.755em;
+  font-weight: 400;
+  background: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  padding: 3px 7px 3px 7px;
+  color: #577ba8;
+}
+
+.auth-unfollow-btn:hover {
+  border: 1px solid #999;
+  background: #e6e6e6;
+  cursor: pointer;
+}
+
+.auth-follow-btn {
+  font-size: 0.755em;
+  font-weight: 400;
+  background: #577ba8;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 3px 7px 3px 7px;
+  color: #fff;
+}
+
+.auth-follow-btn:hover {
+  border: 1px solid #003366;
+  background: #4e6f97;
+  cursor: pointer;
+}
+
+#link-auth-name:hover {
+  text-decoration: underline;
+}
+
+.question-date {
+  font-size: 12px;
+  color: #000080;
+}
+
+.question-author-descr {
+  font-size: 13px;
+}
+
+.single-question-body {
+  width: 500px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 0 10px 0;
+}
+
+.answer-form {
+  display: block;
+
+  textarea {
+    width: 500px;
+    height: 100px;
+  }
+
+  textarea:focus {
+    border-color: #577ba8;
+  }
+
+
+  input[type="text"] {
+    width: 500px;
+    height: 200px;
+  }
+
+}
+
+.answer-buttons {
+  display: inline;
+  float: right;
+  padding: 20px 0 0 0;
+
+
+
+  .cancel-button {
+    color: #2b6dad;
+    font-size: 14px;
+    padding: 0 20px 0 0;
+  }
+
+  .cancel-button:hover {
+    text-decoration: underline;
+  }
+}
+
+
+.answers {
+  padding: 30px 0 0 0;
+}
+
+.answers-2 {
+  padding: 75px 0 0 0;
+}
+
+.question-part {
+  padding: 20px 0 0 0;
+}
+
+.single-answer-list {
+  border-top: 1px solid #e2e2e2;
+  padding: 5px 0 20px 0;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+  width: 506px;
+}
+
+.auth-answer-pic {
+  display: block;
+  height: 40px;
+  width: 42px;
+  float: left;
+  padding: 0 5px 0 0;
+
+img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #f9f9f9;
+  border-radius: 50%;
+  }
+
+}
+
+#ans-auth {
+  font-size: 14px;
+  color: #b82b28;
+}
+
+#ans-auth:hover {
+  text-decoration: underline;
+}
+
+.questions-attr{
+  padding: 10px 0 0 0;
+}
+
+.upvote-btn {
+  border: 1px solid #bbcadc;
+  background: #f1f8fb;
+  border-radius: 3px;
+  font-weight: 500;
+  font-family: 'Roboto Condenced', sans-serif;
+  padding: 3px 7px 4px 7px;
+  color: #2b6dad;
+  font-size: 12px;
+}
+
+.upvote-btn:hover {
+  border: 1px solid #577ba8;
+  cursor: pointer;
+}
+
+.upvote-btn-liked {
+  border: 1px solid #a6a6a6;
+  background: #f2f2f2;
+  border-radius: 3px;
+  font-weight: 500;
+  font-family: 'Roboto Condenced', sans-serif;
+  padding: 3px 7px 4px 7px;
+  color: #a6a6a6;
+  font-size: 12px;
+}
+
+.attt-links {
+  padding: 0 0 0 15px;
+  color: #999;
+  font-size: 12px;
+}
+
+.attt-links:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.comments-count {
+  margin: 0 0 0 5px;
+  padding: 1px 2px;
+  font-size: 12px;
+  background: #e2e2e2;
+  color: #2573a7;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+}
+
+.views-count {
+  color: #999;
+  font-size: 12px;
+  padding: 0 0 5px 5px;
+}
+
+
+.ans-date {
+  color: #999;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.answer-body {
+  padding: 10px 0 0 0;
+}
+
+.ans-btn {
+  border: 1px solid #bbcadc;
+  background: #f1f8fb;
+  border-radius: 3px;
+  font-weight: 400;
+  padding: 3px 7px 4px 7px;
+  color: #2b6dad;
+}
+
+.ans-btn:hover {
+  border: 1px solid #577ba8;
+  cursor: pointer;
+}
+
+.ans-btn-liked {
+  border: 1px solid #a6a6a6;
+  background: #f2f2f2;
+  border-radius: 3px;
+  font-weight: 400;
+  padding: 3px 7px 4px 7px;
+  color: #a6a6a6;
+}
+
+.not-active-btn {
+  border: 1px solid #a6a6a6;
+  background: #f2f2f2;
+  border-radius: 3px;
+  font-weight: 400;
+  padding: 3px 7px 4px 7px;
+  color: #a6a6a6;
+}
+
+#vote-btn {
+  margin: 0 0 0 20px;
+}
+
+.ans-number {
+  padding: 0 0 0 20px;
+  font-size: 13px;
+  color: #999;
+}
+
+
+.question-buttons {
+  padding: 10px 0 0 0;
+  // display: inline-block;
+  width: 500px;
+
+}
+
+.answers-quan {
+  padding: 0 0 5px 0;
+  margin: -10px 0 0 0;
+}
+
+.answers-list {
+  width: 500px;
+}
+
+// ask question page
+
+.question-input {
+
+  textarea {
+    width: 494px;
+    height: 100px;
+  }
+
+  textarea:focus {
+    border-color: #577ba8;
+  }
+
+}
+
+.create-question-container {
+  width: 500px;
+  float: left;
+  padding: 10px 0 0 40px;
+
+}
+
+.noquestions-topic {
+  padding: 10px 0 20px 0;
+  width: 500px;
+  text-align: center;
+}
+
+.button-part {
+  display: block;
+  width: 500px;
+}
+
+.dd-topic {
+  width: 200px;
+  float: left;
+  padding: 22px 0 0 160px;
+
+  select {
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+}
+
+.dd-topic-notopic {
+  width: 280px;
+  float: left;
+  padding-top: 24px;
+}
+
+.current-topic-warning {
+  font-size: 13px;
+  color: #999;
+}
+
+.change-topic-btn-container {
+  float: left;
+  padding: 20px 0 0 0;
+}
+
+#add-question {
+  float: right;
+}
+
+.answer-quantity {
+  width: 495px;
+  margin-top: 10px;
+  background: #577ba8;
+  padding: 3px 0 3px 5px;
+  text-align: center;
+}
+
+.answer-quantity-light {
+  width: 500px;
+  margin-top: 10px;
+  background: #f2f2f2;
+  padding: 3px 0 3px 5px;
+  text-align: center;
+}
+
+.answer-number {
+  font-size: 12px;
+  color: #f1f8fb;
+}
+
+.answer-number-light {
+  font-size: 12px;
+  color: #577ba8;
+}

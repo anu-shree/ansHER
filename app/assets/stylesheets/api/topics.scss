@@ -1,0 +1,153 @@
+// Place all the styles related to the Api::topics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+.topic-questions {
+  float: left;
+  padding: 10px 0 0 40px;
+  width: 500px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.topic-question-container {
+}
+
+.single-q-list {
+  // border-bottom: 1px solid #e2e2e2;
+  border: 1px solid #e2e2e2;
+  // padding: 20px 0 20px 0;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.single-q-list:hover {
+  background: #f2f2f2;
+  cursor: pointer;
+
+  .q-body {
+    color: #2b6dad;
+  }
+}
+
+.q-body {
+  font-size: 18px;
+  letter-spacing: 0.6px;
+}
+
+
+.question-stats {
+  padding: 13px 0 0 0;
+  position: relative;
+}
+
+
+#topic-ans-num {
+  padding: 0 0 0 20px;
+  font-size: 13px;
+  color: #999;
+}
+
+#index-topic-ans-num {
+  float: right;
+}
+
+
+.downvote-link {
+  padding: 0 0 0 20px;
+  font-size: 13px;
+  color: #999;
+}
+
+.downvote-link:hover {
+  text-decoration: underline;
+}
+
+
+.quick-ans-container {
+  position: absolute;
+  top: -55px;
+  left: 490px;
+  width: 360px;
+  border: 1px solid #dde5ee;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(187,202,220,0.2);
+  padding: 10px;
+  z-index: 2;
+  background: #ffffff;
+  opacity: 1;
+}
+
+.quick-answer {
+
+  form {
+  }
+
+  textarea {
+    width: 353px;
+    height: 100px;
+    font-size: 13px;
+  }
+
+  textarea:focus {
+    border-color: #577ba8;
+  }
+
+  input {
+    float:right;
+  }
+
+}
+
+.add-quick-ans-btn {
+  float: right;
+  font-size: 12px;
+}
+
+#not-active-quickans {
+  float: right;
+  font-size: 12px;
+}
+
+.invisible {
+  display: none;
+}
+
+.ans-date-rendering-1 {
+  color: #ff6600;
+}
+
+.ans-date-rendering-2 {
+  color: #990000;
+}
+
+.ans-date-rendering-3 {
+  color: #cc5200;
+}
+
+.ans-date-rendering-4 {
+  color: #cc0000;
+}
+
+.ans-date-rendering-5 {
+  color: #008000;
+}
+
+.ans-date-rendering-6 {
+  color: #002db3;
+}
+
+.ans-date-rendering-7 {
+  color: #000066;
+}
+
+.ans-date-rendering-8 {
+  color: #734d26;
+}
+
+.ans-date-rendering-9 {
+  color: #a6a6a6;
+}

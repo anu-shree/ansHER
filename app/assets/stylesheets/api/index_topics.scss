@@ -1,0 +1,51 @@
+// main
+.index-topics {
+  float: left;
+  padding: 10px 0 0 40px;
+  width: 500px;
+}
+
+
+
+.user-index-title {
+  padding: 3px 0 3px 5px;
+  background: #577ba8;
+  color: #f1f8fb;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.user-index {
+  // width: 450px;
+  justify-content: center;
+  width: 100%
+  // float: left;
+}
+
+.topic-info {
+  font-size: 15px;
+  padding: 10px 20px 10px 0;
+
+  a {
+    font-size: 15px;
+    color: #b82b28;
+    padding: 0 0 20px 0;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.topic-info:hover {
+  background: #f2f2f2;
+}
+
+.empty-space {
+  padding: 5px;
+}
+
+#index-question-auth-name {
+  width: 350px;
+}
